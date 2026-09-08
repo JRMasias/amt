@@ -1,13 +1,18 @@
 import movie1 from "../assets/movie_1.jpg";
 import movie_1_mobile from "../assets/movie_1_mobile.png";
+import showcaseImage from "../assets/showcase_1.jpg";
 import movie2 from "../assets/movie_2.jpg";
 import movie_2_mobile from "../assets/movie_2_mobile.png";
+import showcaseImage2 from "../assets/showcase_2.jpg";
 import movie3 from "../assets/movie_3.jpg";
 import movie_3_mobile from "../assets/movie_3_mobile.png";
+import showcaseImage3 from "../assets/showcase_3.jpg";
 import movie4 from "../assets/movie_4.jpg";
 import movie_4_mobile from "../assets/movie_1_mobile.png";
+import showcaseImage4 from "../assets/showcase_4.jpg";
 import movie5 from "../assets/movie_5.jpg";
 import movie_5_mobile from "../assets/movie_1_mobile.png";
+import showcaseImage5 from "../assets/showcase_5.jpg";
 import movie6 from "../assets/movie_6.jpg";
 import movie_6_mobile from "../assets/movie_1_mobile.png";
 import movie7 from "../assets/movie_7.jpg";
@@ -52,6 +57,7 @@ export const movies = [
           description: "A magical fantasy tale that will transport you to a world of wonder and enchantment.",
           image: movie4,
           imageMobile: movie_4_mobile,
+          showcaseImage: showcaseImage,
           rating: 4.9,
      },
      {
@@ -60,6 +66,7 @@ export const movies = [
           description: "A sci-fi epic that will take you on a thrilling journey through the cosmos.",
           image: movie5,
           imageMobile: movie_5_mobile,
+          showcaseImage: showcaseImage2,
           rating: 4.1,
      },
      {
@@ -68,6 +75,7 @@ export const movies = [
           description: "A superhero adventure that will keep you on the edge of your seat.",
           image: movie6,
           imageMobile: movie_6_mobile,
+          showcaseImage: showcaseImage3,
           rating: 3.9,
      },
      {
@@ -76,6 +84,7 @@ export const movies = [
           description: "A comedic tragedy that will make you laugh and cry at the same time.",
           image: movie7,
           imageMobile: movie_7_mobile,
+          showcaseImage: showcaseImage5,
           rating: 3.8,
      },
      {
@@ -84,6 +93,7 @@ export const movies = [
           description: "A romantic comedy that will warm your heart and make you believe in love again.",
           image: movie8,
           imageMobile: movie_8_mobile,
+          showcaseImage: showcaseImage4,
           rating: 4.0,
      },
      {
