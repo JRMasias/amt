@@ -18,42 +18,39 @@ export default function Footer() {
                     <FaTwitter className="text-2xl w-10 h-10 p-2 rounded-full border border-white text-white cursor-pointer hover:border-[#FFAA00] hover:text-[#FFAA00] hover:scale-105 transition-all duration-300" />
                     <FaYoutube className="text-2xl w-10 h-10 p-2 rounded-full border border-white text-white cursor-pointer hover:border-[#FFAA00] hover:text-[#FFAA00] hover:scale-105 transition-all duration-300" />
                </Divider>
-               <div>
-                    Links
-               </div>
                <div className="w-full bg-neutral-800 p-5 flex justify-between items-center">
                     <div>
-                         <h1 className="text-white text-2xl font-bold ps-4">
-                              Section 1
+                         <h1 className="text-white text-2xl font-bold mb-2">
+                              About Us
                          </h1>
-                         <ul className="text-white">
+                         <ul className="text-white text-lg">
                               <li>Item 1</li>
                               <li>Item 2</li>
                          </ul>
                     </div>
                     <div>
-                         <h1 className="text-white text-2xl font-bold ps-4">
-                              Section 2
+                         <h1 className="text-white text-2xl font-bold mb-2">
+                              Movies
                          </h1>
-                         <ul className="text-white">
+                         <ul className="text-white text-lg">
                               <li>Item 1</li>
                               <li>Item 2</li>
                          </ul>
                     </div>
                     <div>
-                         <h1 className="text-white text-2xl font-bold ps-4">
-                              Section 3
+                         <h1 className="text-white text-2xl font-bold mb-2">
+                              Programming
                          </h1>
-                         <ul className="text-white">
+                         <ul className="text-white text-lg">
                               <li>Item 1</li>
                               <li>Item 2</li>
                          </ul>
                     </div>
                     <div>
-                         <h1 className="text-white text-2xl font-bold ps-4">
-                              Section 4
+                         <h1 className="text-white text-2xl font-bold mb-2">
+                              More
                          </h1>
-                         <ul className="text-white">
+                         <ul className="text-white text-lg">
                               <li>Item 1</li>
                               <li>Item 2</li>
                          </ul>
