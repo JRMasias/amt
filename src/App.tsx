@@ -3,6 +3,7 @@ import AnimatedBanner from './components/Banner/AnimatedBanner';
 import Navbar from './components/navigation/Navbar';
 import Showcase from './components/showcase/Showcase';
 import Slideshow from './components/slideshow/Slideshow';
+import Banner from './components/vip/Banner';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <AnimatedBanner />
       <Slideshow />
       <Showcase />
+      <Banner />
     </main>
   );
 }
