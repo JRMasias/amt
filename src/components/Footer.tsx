@@ -21,7 +21,7 @@ export default function Footer() {
                <div>
                     Links
                </div>
-               <div className="w-full bg-neutral-800 mt-10 p-5 flex justify-between items-center">
+               <div className="w-full bg-neutral-800 p-5 flex justify-between items-center">
                     <div>
                          <h1 className="text-white text-2xl font-bold ps-4">
                               Section 1
