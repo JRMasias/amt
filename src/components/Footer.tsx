@@ -6,7 +6,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
      return (
-          <footer className="flex flex-col justify-center items-center pt-10 px-10">
+          <footer className="flex flex-col justify-center items-center pt-10">
                <img src={ AMC } alt="AMC Logo" className="w-3/5" />
                <div className="flex justify-evenly items-center w-full mt-10">
                     <YellowButton>Get Tickets</YellowButton>
