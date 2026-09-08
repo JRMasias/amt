@@ -9,7 +9,7 @@ import Banner from './components/vip/Banner';
 function App() {
 
   return (
-    <main className="h-screen max-w-300 m-auto antialiased tracking-wide">
+    <main className="antialiased tracking-wide">
       <Navbar />
       <AnimatedBanner />
       <Slideshow />
