@@ -13,7 +13,7 @@ export default function Navbar() {
      }, []);
 
      return (
-          <nav className="flex justify-between items-center px-4 py-4 h-16 text-white w-full sticky top-0 z-50">
+          <nav className="flex justify-between items-center px-4 py-4 h-16 text-white w-full sticky top-0 z-50 bg-neutral-950">
                <img src={ logo } alt="Logo" className="object-contain h-full" />
                {/* mobile : desktop menu */ }
                { screenSize < 768 ? <MobileMenu /> : <Desktop /> }
