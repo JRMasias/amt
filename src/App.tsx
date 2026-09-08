@@ -1,7 +1,7 @@
 import './App.css';
 import AnimatedBanner from './components/Banner/AnimatedBanner';
 import Navbar from './components/navigation/Navbar';
-import Showcase from './components/sideshow/Showcase';
+import Showcase from './components/showcase/Showcase';
 import Slideshow from './components/slideshow/Slideshow';
 
 function App() {
