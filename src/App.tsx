@@ -1,5 +1,6 @@
 import './App.css';
 import AnimatedBanner from './components/Banner/AnimatedBanner';
+import Footer from './components/Footer';
 import Navbar from './components/navigation/Navbar';
 import Showcase from './components/showcase/Showcase';
 import Slideshow from './components/slideshow/Slideshow';
@@ -14,6 +15,7 @@ function App() {
       <Slideshow />
       <Showcase />
       <Banner />
+      <Footer />
     </main>
   );
 }
