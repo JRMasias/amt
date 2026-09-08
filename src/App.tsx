@@ -1,6 +1,7 @@
 import './App.css';
 import AnimatedBanner from './components/Banner/AnimatedBanner';
 import Navbar from './components/navigation/Navbar';
+import Showcase from './components/sideshow/Showcase';
 import Slideshow from './components/slideshow/Slideshow';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <AnimatedBanner />
       <Slideshow />
+      <Showcase />
     </main>
   );
 }
