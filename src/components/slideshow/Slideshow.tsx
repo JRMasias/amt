@@ -16,7 +16,7 @@ export default function Slideshow() {
      }, []);
 
      return (
-          <section className="mb-8">
+          <section>
                { screenSize > 768 ? <img src={ movies[ 0 ].image } alt={ movies[ 0 ].title } className="w-full" /> :
                     <img src={ movies[ 0 ].imageMobile } alt={ movies[ 0 ].title } className="w-full max-h-screen" /> }
           </section>
